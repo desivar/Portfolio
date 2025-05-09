@@ -131,7 +131,7 @@ body {
   /* About Me Section (Unchanged) */
   .about-me {
     padding: 50px 20px;
-    background-color: #B2F7EF;
+    background-color:#b2f7ef;
     color: black;
   }
   
@@ -154,7 +154,8 @@ body {
   
   .about-img {
     max-width: 250px; /* Adjust as needed */
-    border-radius: 25%; /
+    border-radius: 25%; 
+    border: 2px solid rgba(255, 255, 255, 0.8); /* Light border */
   }
   
   .about-text {
@@ -177,7 +178,7 @@ body {
     display: inline-block;
     background: rgba(255, 255, 255, 0.2); /* Semi-transparent white */
     backdrop-filter: blur(10px); /* Blur effect for glassmorphism */
-    border: 2px solid rgba(255, 255, 255, 0.8); /* Light border */
+    border: 3px solid rgba(255, 255, 255, 0.8); /* Light border */
     border-radius: 15px;
     padding: 20px 40px;
     text-align: center;
@@ -224,6 +225,7 @@ body {
     background: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(5px);
     border-radius: 10px;
+    border: 3px solid rgba(255, 255, 255, 0.8); /* Light border */
     padding: 20px 0;
 }
 
@@ -349,7 +351,7 @@ body {
     backdrop-filter: blur(10px);
     border: 2px solid rgba(255, 255, 255, 0.8);
     border-radius: 15px;
-    color: black;
+    color: #f2b5d4;
     text-decoration: none;
     transition: all 0.3s ease;
 }
@@ -365,8 +367,8 @@ body {
 }
 
 .demo-btn {
-    background-color: #4CAF50;
-    color: white;
+    background-color: black;
+    color: pink;
 }
 
 /* Responsive Projects */
