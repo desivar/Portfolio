@@ -126,18 +126,7 @@ body {
     background-color: #B2F7EF;
 }
 
-/* Map section */
-.map {
-    padding: 60px 20px;
-    background-color: #7BDFF2; 
-    text-align: center;
-}
 
-.map h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
-    color: var(--text-color);
-}
 
 /* Responsive styling */
 @media (max-width: 768px) {
