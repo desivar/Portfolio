@@ -127,11 +127,23 @@ body {
     padding: 0;
   }
   
-  .glass-button:hover {
+ .glass-button {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent white */
+    backdrop-filter: blur(10px); /* Blur effect for glassmorphism */
+    border: 3px solid rgba(255, 255, 255, 0.8); /* Light border */
+    border-radius: 15px;
+    padding: 20px 40px;
+    text-align: center;
+    color: black; 
+    max-width: 80%;
+    text-decoration: none; /* Add this line to remove underline in normal state */
+}
+
+.glass-button:hover {
     background: rgba(255, 255, 255, 0.3);
     text-decoration: none; /* Ensure no underline on hover */
-  }
-  
+}
   /* About Me Section (Unchanged) */
   .about-me {
     padding: 50px 20px;
