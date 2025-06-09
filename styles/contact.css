@@ -73,59 +73,51 @@ body {
 
 
 /* Contact Page Styles */
-.contact-form {
-    padding: 60px 20px;
-    text-align: center;
-    background-color:white; 
-    border-radius: 10px;
-    max-width: 800px;
-    margin: 40px auto;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+.contact-page-container {
+  background-color: #f5f7fa; /* Light background color, similar to Pipedrive */
+  min-height: calc(100vh - /* height of your navbar/footer if any */);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px; /* Add some overall padding */
 }
 
-.contact-form h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
-    color: var(--text-color);
+.contact-form-frame {
+  background-color: #ffffff; /* White background for the frame */
+  border-radius: 8px; /* Slightly rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  padding: 40px; /* Ample padding inside the frame */
+  max-width: 600px; /* Limit width for readability */
+  width: 100%; /* Ensure it takes full width up to max-width */
 }
 
-.contact-form form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    max-width: 600px;
-    margin: 0 auto;
+/* Style for input fields */
+.contact-form-frame input[type="text"],
+.contact-form-frame input[type="email"],
+.contact-form-frame textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  font-size: 16px;
 }
 
-.contact-form input, .contact-form textarea {
-    padding: 10px;
-    border: 2px solid black; 
-    border-radius: 5px;
-    font-size: 1em;
-    color: var(--text-color);
-    background-color: rgb(244, 242, 242);
-    transition: border-color 0.3s;
+/* Style for the submit button */
+.contact-form-frame button {
+  background-color: #007bff; /* Example primary color */
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
 }
 
-.contact-form input:focus, .contact-form textarea:focus {
-    border-color: whites;
-    outline: none;
+.contact-form-frame button:hover {
+  background-color: #0056b3;
 }
-
-.contact-form button {
-    background-color:white;
-    color: black;
-    padding: 12px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    border-radius: 5px;
-    font-size: 1em;
-}
-
-.contact-form button:hover {
-    background-color: #B2F7EF;
-}
-
 
 
 /* Responsive styling */

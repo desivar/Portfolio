@@ -4,7 +4,7 @@ body {
     font-family: 'Arial', sans-serif;
     box-sizing: border-box;
     background-color: #EFF7F6; /* Fallback color */
-    background-image: url(images/bluewallpaper.jpg); /* Background image */
+    background-image: url(/images/bluewallpaper.jpg); /* Background image */
     background-size: cover; /* Cover the entire body */
     background-position: center; /* Center the image */
     color: #333;
