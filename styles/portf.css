@@ -3,13 +3,21 @@ body {
     padding: 0;
     font-family: 'Arial', sans-serif;
     box-sizing: border-box;
-    background-color: #EFF7F6;
+    background-color: #EFF7F6; /* Fallback color */
+    background-image: url(images/bluewallpaper.jpg); /* Background image */
+    background-size: cover; /* Cover the entire body */
+    background-position: center; /* Center the image */
     color: #333;
-  }
-  
-  body{
-    background-image: url(images/bluewallpaper.jpg);
-    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Correct alignment */
+    padding: 20px;
+    background-color: #B2F7EF;
+    color: black;
+    border: #333;
 }
   header {
     display: flex;
