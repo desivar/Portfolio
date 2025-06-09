@@ -91,17 +91,6 @@ body {
   width: 100%; /* Ensure it takes full width up to max-width */
 }
 
-/* Style for input fields */
-.contact-form-frame input[type="text"],
-.contact-form-frame input[type="email"],
-.contact-form-frame textarea {
-  width: 100%;
-  padding: 12px;
-  margin-bottom: 20px;
-  border: 1px solid #e0e0e0;
-  border-radius: 4px;
-  font-size: 16px;
-}
 
 /* Style for the submit button */
 .contact-form-frame button {
