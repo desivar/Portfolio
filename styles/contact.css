@@ -75,7 +75,7 @@ body {
 /* Contact Page Styles */
 .contact-page-container {
   background-color: #f5f7fa; /* Light background color, similar to Pipedrive */
-  min-height: calc(100vh - /* height of your navbar/footer if any */);
+  min-height: calc(100vh - 80px); /* Adjust 80px to match your navbar/footer height */
   display: flex;
   justify-content: center;
   align-items: center;
