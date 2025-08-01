@@ -62,5 +62,29 @@ AOS.init({
       });
     }
   });
-  
+  // Smooth scrolling for navigation links
+document.querySelectorAll('nav ul li a').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        // Prevent default only if the link is an internal fragment link
+        if (this.getAttribute('href').startsWith('#')) {
+            e.preventDefault();
+
+            const targetId = this.getAttribute('href');
+            const targetElement = document.querySelector(targetId);
+
+            if (targetElement) {
+                // Scroll to the target element with smooth behavior
+                targetElement.scrollIntoView({
+                    behavior: 'smooth'
+                });
+
+                // Optional: Close the mobile menu after clicking
+                const navLinks = document.querySelector('nav ul');
+                if (navLinks.classList.contains('active')) {
+                    navLinks.classList.remove('active');
+                }
+            }
+        }
+    });
+});
       

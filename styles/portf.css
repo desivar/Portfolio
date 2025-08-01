@@ -4,7 +4,7 @@ body {
     font-family: 'Arial', sans-serif;
     box-sizing: border-box;
     background-color: #EFF7F6; /* Fallback color */
-    background-image: url(/images/bluewallpaper.jpg); /* Background image */
+  
     background-size: cover; /* Cover the entire body */
     background-position: center; /* Center the image */
     color: #333;
@@ -155,7 +155,7 @@ header {
   /* About Me Section (Unchanged) */
   .about-me {
     padding: 50px 20px;
-    background-color:#b2f7ef;
+    background-color:#4CAF50;
     color: black;
   }
   
@@ -217,7 +217,83 @@ header {
     text-decoration: none; /* Ensure no underline on hover */
     
   }
+  /* Education Section */
 
+  /* Education Section Styling */
+.education {
+    padding: 50px 20px; /* Consistent padding with other sections */
+    background-color: #EFF7F6; /* Use your light background color */
+    color: #333; /* Darker text for readability */
+    margin: 2rem auto; /* Center it and give some margin */
+    max-width: 1200px; /* Match max-width with other main sections */
+    text-align: center; /* Center the heading */
+}
+
+.education h3 {
+    font-size: 2em; /* Larger heading */
+    margin-bottom: 2.5rem; /* More space below heading */
+    color: #333; /* Dark color for heading */
+    font-weight: bold;
+}
+
+.education-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+    justify-content: center; /* Center education items */
+    gap: 25px; /* Space between education cards */
+}
+
+.education-item {
+    background-color: #B2F7EF; /* Your header/accent color */
+    border-radius: 15px; /* Rounded corners for the card */
+    padding: 25px; /* Padding inside each card */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+    flex: 1 1 calc(33% - 50px); /* Approx 3 items per row, considering gap */
+    min-width: 280px; /* Minimum width before wrapping */
+    text-align: left; /* Align text within the card to the left */
+    display: flex; /* Use flexbox for internal layout */
+    flex-direction: column; /* Stack contents vertically */
+    justify-content: space-between; /* Push year/degree to top, school to bottom */
+}
+
+.education-item:hover {
+    transform: translateY(-8px); /* Lift effect on hover */
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15); /* Stronger shadow on hover */
+}
+
+.education-year {
+    font-size: 0.95em; /* Slightly smaller for the year */
+    font-weight: 700; /* Bolder year */
+    color: #4CAF50; /* A distinct color for the year, e.g., green */
+    margin-bottom: 0.5rem;
+}
+
+.education-degree {
+    font-size: 1.25em; /* Prominent degree name */
+    font-weight: 600;
+    color: #333; /* Dark color for degree */
+    margin-bottom: 0.5rem; /* Space below degree */
+}
+
+.education-school {
+    font-size: 1em; /* Standard size for school name */
+    color: #555; /* Slightly lighter color for school */
+    margin-top: auto; /* Pushes the school name to the bottom of the card */
+}
+
+/* Responsive adjustments for education section */
+@media (max-width: 992px) {
+    .education-item {
+        flex: 1 1 calc(50% - 40px); /* 2 items per row on medium screens */
+    }
+}
+
+@media (max-width: 600px) {
+    .education-item {
+        flex: 1 1 90%; /* 1 item per row on small screens */
+    }
+}
   /* Skills Marquee Section */
 .skills {
     padding: 50px 20px;
