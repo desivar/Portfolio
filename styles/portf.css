@@ -115,6 +115,7 @@ body {
             padding: 100px 20px;
             position: relative;
             overflow: hidden;
+             height: 100vh;
         }
 
         .hero::before {
