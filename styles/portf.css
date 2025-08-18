@@ -3,7 +3,7 @@ body {
             padding: 0;
             font-family: 'Arial', sans-serif;
             box-sizing: border-box;
-            background: linear-gradient(135deg, #0f0f23 0%, #1a1a2e 25%, #16213e 50%, #0f3460 75%, #0e4b99 100%);
+            background: linear-gradient(135deg, #112c70 0%, #5b58eb 25%, #bb63ff 50%, #56e1e9 75%, #0a2353 100%);
             background-attachment: fixed;
             background-size: cover;
             background-position: center;
@@ -18,7 +18,7 @@ body {
             padding: 20px;
             background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
             color: #ffffff;
-            border-bottom: 3px solid #00d4aa;
+            border-bottom: 3px solid #e094a0;
             backdrop-filter: blur(10px);
             box-shadow: 0 4px 20px rgba(0, 212, 170, 0.2);
         }
@@ -76,7 +76,7 @@ body {
             display: none;
             font-size: 1.5em;
             cursor: pointer;
-            color: #00d4aa;
+            color: #9bf6ff;
         }
 
         @media (max-width: 768px) {
