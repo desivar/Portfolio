@@ -3,11 +3,12 @@ body {
             padding: 0;
             font-family: 'Arial', sans-serif;
             box-sizing: border-box;
-            background: linear-gradient(135deg, #112c70 0%, #5b58eb 25%, #bb63ff 50%, #56e1e9 75%, #0a2353 100%);
+            background: #F0F4F8;
+            color: #12141A;
             background-attachment: fixed;
             background-size: cover;
             background-position: center;
-            color: #ffffff;
+        
             min-height: 100vh;
         }
 
@@ -23,24 +24,26 @@ body {
             box-shadow: 0 8px 32px rgba(86, 225, 233, 0.2);
         }
 
-        h1 {
-            font-size: 2.5em;
-            font-weight: bold;
-            color: #ffffff;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
-        }
+      h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    /* Updated to the dark text color */
+    color: #12141A;
+    text-shadow: none; /* Removed for a cleaner look */
+}
 
-        h2 {
-            font-size: 1.5em;
-            font-weight: bold;
-            text-align: center;
-            color: #56e1e9;
-        }
+       h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    /* Updated to the primary accent color */
+    color: #4B7BEC;
+}
 
         .logo-img {
             max-width: 200px;
             height: auto;
-            filter: brightness(1.2) contrast(1.1);
+        
         }
 
         nav ul {
@@ -66,8 +69,8 @@ body {
 
         nav ul li a.active,
         nav ul li a:hover {
-            background: linear-gradient(135deg, #56e1e9, #bb63ff);
-            color: #0a2353;
+            background: #4B7BEC;
+            color: #F0F4F8;
             text-shadow: none;
             transform: translateY(-2px);
             box-shadow: 0 4px 15px rgba(86, 225, 233, 0.5);
