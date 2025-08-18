@@ -106,7 +106,7 @@ body {
 
         /* Hero Section */
         .hero {
-            background-image: url('/images/3dhermodl.webp');
+            background-image: url('../images/3dhermodl.webp');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -115,7 +115,7 @@ body {
             padding: 100px 20px;
             position: relative;
             overflow: hidden;
-             height: 100vh;
+            
         }
 
         .hero::before {
