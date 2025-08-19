@@ -687,7 +687,7 @@ html {
 
 ::-webkit-scrollbar-track {
     /* CHANGED: New light color for track */
-    background: #EAF2F8;
+    background: #d8e2dc;
 }
 
 ::-webkit-scrollbar-thumb {
