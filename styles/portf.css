@@ -586,7 +586,7 @@ nav ul li a:hover {
 /* Footer */
 footer {
     /* CHANGED: New light background */
-    background: #ffcad4;
+    background: #FFFFFF;
     /* CHANGED: New dark text color */
     color: #12141A;
     text-align: center;
@@ -687,7 +687,7 @@ html {
 
 ::-webkit-scrollbar-track {
     /* CHANGED: New light color for track */
-    background: #ffcad4;
+    background: #EAF2F8;
 }
 
 ::-webkit-scrollbar-thumb {
