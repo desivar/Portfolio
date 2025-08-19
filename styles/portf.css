@@ -4,7 +4,7 @@ body {
     font-family: 'Arial', sans-serif;
     box-sizing: border-box;
     /* CHANGED: Simplified to a light gradient */
-    background: linear-gradient(135deg, #ffcdb2 0%, #e5989b 50%, #ffcdb2 100%);
+    background: linear-gradient(135deg, #F0F4F8 0%, #FFFFFF 50%, #F0F4F8 100%);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
