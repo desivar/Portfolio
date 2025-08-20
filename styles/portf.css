@@ -19,7 +19,7 @@ header {
     align-items: center;
     padding: 20px;
     /* CHANGED: Solid white background with blur for clean look */
-    background: rgba(255, 252, 252, 0.9);
+    background: rgba(255, 255, 255, 0.9);
     /* CHANGED: New text color for readability */
     color: #12141A;
     /* CHANGED: New border color */
@@ -699,4 +699,3 @@ html {
 ::-webkit-scrollbar-thumb:hover {
     /* CHANGED: New unified gradient for thumb on hover */
     background: linear-gradient(135deg, #FFCAD4, #735960);
-}
