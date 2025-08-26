@@ -32,7 +32,7 @@ header {
 h1 {
     font-size: 2.5em;
     font-weight: bold;
-    /* CHANGED: New pink accent color */
+    
     color: black;
     text-shadow: 2px 2px 4px rgba(206, 151, 203, 0.5);
 }
