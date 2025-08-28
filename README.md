@@ -2,11 +2,11 @@
 
 Welcome to my portfolio! I am **Desire Vargas**, a passionate web developer currently pursuing a Bachelor’s Degree in Software Development. This portfolio showcases my skills, education, and projects that I have worked on.
 
-![Portfolio Screenshot](https://via.placeholder.com/800x400) <!-- Replace with your project image URL -->
+![Portfolio Screenshot](https://via.placeholder.com/800x400) 
 
 ## Live Demo
 
-Check out the live demo of my portfolio [here](https://your-live-demo-link.com) <!-- Replace with your live demo link -->
+Check out the live demo of my portfolio [here](https://desivar.github.io/Portfolio/) 
 
 ## Table of Contents
 
@@ -94,7 +94,7 @@ Feel free to reach out to me via [WhatsApp](https://wa.me/50498497898) or connec
 - [Instagram](https://instagram.com)
 - [LinkedIn](https://www.linkedin.com/in/desire-delmy-vargas-tinoco-853381247/)
 - [GitHub](https://github.com/desivar?tab=repositories)
-- [YouTube](https://www.youtube.com/@CodingalongwithD)
+
 
 ## Contributing
 
