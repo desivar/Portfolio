@@ -77,12 +77,12 @@ A Weather App that provides weather information, forecasts, and suggestions abou
 [GitHub](https://github.com/desivar/My-Weather-App) | [Live Demo](https://desivar.github.io/My-Weather-App/weather2.html)
 
 ### Bridebloom
-![Bridebloom](https://github.com/desivar/Portfolio/blob/main/images/Screenshot%202025-09-05%20053719.png) 
+![Bridebloom]() 
 A responsive prototype design for a virtual wedding flower shop.  
-[GitHub](https://github.com/desivar/bridebloom) | [Video Demo](https://bridebloom-frontend.onrender.com/)
+[GitHub](https://github.com/desivar/Portfolio/blob/main/images/bridepro.png) | [Video Demo](https://bridebloom-frontend.onrender.com/)
 
 ### Chemistry Lab
-![Chemistry Lab](https://github.com/desivar/Portfolio/blob/main/images/Screenshot%202025-09-05%20053719.png) 
+![Chemistry Lab](https://github.com/desivar/Portfolio/blob/main/images/chempro.png) 
 A web-based interactive chemistry simulator that allows users to mix elements and observe chemical reactions in real-time.  
 [GitHub](https://github.com/desivar/mychemistrylab) | [Live Demo](https://desivar.github.io/mychemistrylab/)
 
