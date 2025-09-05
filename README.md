@@ -72,17 +72,17 @@ I am a student, software developer, and web designer with a passion for logical 
 ## Projects
 
 ### My Weather App
-![My Weather App](images/weaapp.png) <!-- Replace with your project image -->
+![My Weather App](images/weaapp.png) 
 A Weather App that provides weather information, forecasts, and suggestions about possible activities according to your local weather.  
 [GitHub](https://github.com/desivar/My-Weather-App) | [Live Demo](https://desivar.github.io/My-Weather-App/weather2.html)
 
 ### Bridebloom
-![Bridebloom](images/Screenshot 2025-06-24 031448.png) <!-- Replace with your project image -->
+![Bridebloom](https://github.com/desivar/Portfolio/blob/main/images/Screenshot%202025-09-05%20053719.png) 
 A responsive prototype design for a virtual wedding flower shop.  
 [GitHub](https://github.com/desivar/bridebloom) | [Video Demo](https://bridebloom-frontend.onrender.com/)
 
 ### Chemistry Lab
-![Chemistry Lab](images/Screenshot 2025-08-18 200402.png) <!-- Replace with your project image -->
+![Chemistry Lab](https://github.com/desivar/Portfolio/blob/main/images/Screenshot%202025-09-05%20053719.png) 
 A web-based interactive chemistry simulator that allows users to mix elements and observe chemical reactions in real-time.  
 [GitHub](https://github.com/desivar/mychemistrylab) | [Live Demo](https://desivar.github.io/mychemistrylab/)
 
