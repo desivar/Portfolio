@@ -25,7 +25,7 @@ I am a student, software developer, and web designer with a passion for logical 
 ## Education
 
 - **PathwayConnect Certificate**  
-  *PathwayWorldwide*  
+  *PathwayWorConnect*  
   April 2022 - April 2023
 
 - **Certificate in Web and Computer Programming**  
@@ -78,7 +78,7 @@ A Weather App that provides weather information, forecasts, and suggestions abou
 
 ### Bridebloom
 ![Bridebloom](https://github.com/desivar/Portfolio/blob/main/images/bridepro.png) 
-A responsive prototype design for a virtual wedding flower shop.  
+A responsive React prototype design for a virtual wedding flower shop.  
 [GitHub](https://github.com/desivar/bridebloom) | [Video Demo](https://bridebloom-frontend.onrender.com/)
 
 ### Chemistry Lab
@@ -96,11 +96,4 @@ Feel free to reach out to me via [WhatsApp](https://wa.me/50498497898) or connec
 - [GitHub](https://github.com/desivar?tab=repositories)
 
 
-## Contributing
 
-Contributions are welcome! If you have suggestions for improvements or new features, please fork the repository and submit a pull request.
-
-1. Fork the repository.
-2. Create your feature branch:
-   ```bash
-   git checkout -b feature/YourFeature
