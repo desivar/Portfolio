@@ -77,9 +77,9 @@ A Weather App that provides weather information, forecasts, and suggestions abou
 [GitHub](https://github.com/desivar/My-Weather-App) | [Live Demo](https://desivar.github.io/My-Weather-App/weather2.html)
 
 ### Bridebloom
-![Bridebloom]() 
+![Bridebloom](https://github.com/desivar/Portfolio/blob/main/images/bridepro.png) 
 A responsive prototype design for a virtual wedding flower shop.  
-[GitHub](https://github.com/desivar/Portfolio/blob/main/images/bridepro.png) | [Video Demo](https://bridebloom-frontend.onrender.com/)
+[GitHub](https://github.com/desivar/bridebloom) | [Video Demo](https://bridebloom-frontend.onrender.com/)
 
 ### Chemistry Lab
 ![Chemistry Lab](https://github.com/desivar/Portfolio/blob/main/images/chempro.png) 
